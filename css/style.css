@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.header-sx, .header-dx{
+    height: 80px;
+    background-color: red;
+    width: 500px;
+}
