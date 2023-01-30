@@ -59,7 +59,7 @@ header{
 }
 
 
-.checkbox{
+.infobox{
     width: 400px;
     height: 50px;
     background: lightcoral;
@@ -110,3 +110,17 @@ header{
     width: 40%;
     background-color: #b4d0e7;
 }
+
+.container-business{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    background-color: khaki;
+    margin-bottom: 20px;
+}
+
+.container-business .colonna{
+    height: 250px;
+}
+
+
