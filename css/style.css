@@ -17,14 +17,15 @@ header{
     width: 500px;
 }
 
-.jumbotron{
+.top-main{
     height: 600px;
     background-color: #b4d0e7;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
-.mwidth70{
-    max-width: 70%;
+.mwidth80{
+    max-width: 80%;
     margin: auto;
 }
 
@@ -49,4 +50,35 @@ header{
 .img-jumbotron{
     width: 70%;
     background-color:aqua ;
+}
+
+.heading2{
+    height: 80px;
+    background-color: red;
+}
+
+
+.checkbox{
+    width: 400px;
+    height: 50px;
+    background: lightcoral;
+    margin: 20px 0px;
+}
+
+.bottom-main{
+    max-width: 60%;
+    margin: auto;
+}
+
+.piani{
+    height: 800px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colonna{
+    width: calc(100% / 3 - 10px);   
+    background: green;
+    margin-right: 10px;
 }
