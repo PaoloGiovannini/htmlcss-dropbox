@@ -76,7 +76,6 @@ header{
     background-color: aquamarine;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0px;
 }
 
 .colonna{
@@ -98,7 +97,6 @@ header{
     height: 500px;
     display: flex;
     background-color: blueviolet;
-    margin: 20px 0px;
 }
 
 .img-partner{
@@ -142,10 +140,43 @@ header{
     background-color: #b4d0e7;
     display: flex;
     align-items: center;
+    
 }
 
 .text-take-dropbox{
     height: 150px;
-    width: 900px;
+    width: 100%;
     background-color: red;
+
+
+}
+
+.faq{
+    height: 500px;
+    background-color: cadetblue;
+}
+
+footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+.container-footer{
+    height: 300px;
+    display: flex;
+}
+
+.info-footer{
+    width: calc(100% / 5 - 10px);
+    background-color: aqua;
+    margin-right: 10px;
+}
+
+hr{
+    width: 150px;
+}
+
+.margin{
+    margin: 20px 0px;
 }
