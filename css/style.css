@@ -16,3 +16,37 @@ header{
     background-color: red;
     width: 500px;
 }
+
+.jumbotron{
+    height: 600px;
+    background-color: #b4d0e7;
+    padding: 20px;
+}
+
+.mwidth70{
+    max-width: 70%;
+    margin: auto;
+}
+
+.heading{
+    height: 100px;
+    width: 400px;
+    background: red;  
+}
+
+.container{
+    height: 450px;
+    background-color: grey;
+    display: flex;
+    margin-top: 20px;
+}
+
+.text-jumbotron{
+    width: 30%;
+    background: brown;
+}
+
+.img-jumbotron{
+    width: 70%;
+    background-color:aqua ;
+}
