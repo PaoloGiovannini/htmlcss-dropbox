@@ -170,8 +170,12 @@ i{
    display: inline-block;
 }
 
+
+.choice hr{
+    width: 40px;
+}
 hr{
-    margin: 15px 0px;
+    margin: 40px 0px;
 }
 
 .fa-check{
@@ -284,9 +288,10 @@ hr{
 
 .portadrop{
     background-color: #b4d0e7;
-    height: 400px;
+    height: 300px;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 .text-portadrop{
@@ -297,9 +302,8 @@ hr{
     background-color: white;
 }
 
-.faq{
-    height: 500px;
-    background-color: cadetblue;
+.arrow{
+    text-align: right;
 }
 
 footer{
@@ -319,9 +323,7 @@ footer{
     margin-right: 10px;
 }
 
-hr{
-    width: 150px;
-}
+
 
 .margin{
     margin: 65px 0px;
