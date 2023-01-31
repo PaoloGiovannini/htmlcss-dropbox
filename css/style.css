@@ -39,7 +39,7 @@ nav ul li{
 }
 
 .button{
-    padding: 5px;
+    padding: 5px 20px;
     background-color: #0061ff;
 
 }
@@ -96,6 +96,7 @@ h1{
 .fa-arrow-down{
     font-size: 50px;
     padding-top: 80px;
+    color: black;
 }
 
 
@@ -196,6 +197,9 @@ hr{
 
 .paddingtop20 h5{
     margin-bottom: 30px;
+}
+.padding20{
+    padding: 20px;
 }
 
 /* fine box enterprise*/
@@ -302,30 +306,30 @@ hr{
     background-color: white;
 }
 
-.arrow{
-    text-align: right;
-}
-
+/* footer */
 footer{
-    height: 400px;
+    
     background-color: black;
     color: white;
+    padding: 50px 0px;
 }
 
-.container-footer{
-    height: 300px;
-    display: flex;
-}
 
 .info-footer{
     width: calc(100% / 5 - 10px);
-    background-color: aqua;
     margin-right: 10px;
 }
 
+.info-footer ul li{
+    margin: 10px 0px;
+}
 
+.mwidth1170 hr{
+    width: 150px;
+}
 
 .margin{
     margin: 65px 0px;
 }
 
+/* fine footer */
