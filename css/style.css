@@ -86,18 +86,20 @@ h1{
     width: 100%;
 }
 
-.col p{
+.width30 p{
     padding: 20px 0px;
 }
 
-.col img{
-    padding: 20px 0px;
+.width70 img{
+    margin-top: 20px;
 }
 
 .fa-arrow-down{
     font-size: 50px;
     padding-top: 80px;
 }
+
+
 /* fine jumbotron*/
 
 .mwidth1000{
@@ -133,6 +135,9 @@ h2{
     border: solid 1px gray;
 }
 
+
+
+/*inizio colonne piani*/
 .iconchoice{
     text-align: center;
     padding: 8px 0px;
@@ -143,7 +148,11 @@ ul li{
 }
 
 .choice ul li{
-    padding: 5px 0px;
+    margin: 15px 0px;
+}
+
+.choice ul{
+    padding: 18px 0px;
 }
 
 .choice{
@@ -155,6 +164,19 @@ i{
 }
 
 
+#try{
+   padding: 20px 0px;
+   display: inline-block;
+}
+
+hr{
+    margin: 15px 0px;
+}
+
+.fa-check{
+    color: #0061ff;
+}
+/*fine colonne piani*/
 
 
 
