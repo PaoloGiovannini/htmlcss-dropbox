@@ -14,7 +14,6 @@ html{
 }
 
 header nav{
-    justify-content: space-between;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -67,6 +66,10 @@ main{
     margin: auto;
 }
 
+.spacebetween{
+    justify-content: space-between;
+}
+
 h1{
     font-size: 60px;
 }
@@ -93,42 +96,67 @@ h1{
 
 .fa-arrow-down{
     font-size: 50px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 /* fine jumbotron*/
 
-
-.heading2{
-    height: 80px;
-    background-color: red;
-    margin-bottom: 20px;
-}
-
-
-.infobox{
-    width: 400px;
-    height: 50px;
-    background: lightcoral;
-    
-}
-
-.mwidth60{
-    max-width: 60%;
+.mwidth1000{
+    max-width: 1000px;
     margin: auto;
 }
 
-.piani{
-    height: 800px;
-    background-color: aquamarine;
-    display: flex;
-    flex-wrap: wrap;
+h2{
+    font-size: 30px;
+    padding: 20px 0px;
 }
 
-.colonna{
-    width: calc(100% / 3 - 10px);   
-    background: green;
-    margin-right: 10px;
+.checkbox{
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.blue{
+    background-color: #0061ff;
 }
+
+.grey{
+    background-color: grey;
+}
+
+.fatturazione{
+    margin-right: 30px;
+}
+
+.border{
+    border: solid 1px gray;
+}
+
+.iconchoice{
+    text-align: center;
+    padding: 8px 0px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.choice ul li{
+    padding: 5px 0px;
+}
+
+.choice{
+    padding: 10px 20px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+
+
+
 
 .heading-enterprise{
     height: 30px;
@@ -224,5 +252,5 @@ hr{
 }
 
 .margin{
-    margin: 20px 0px;
+    margin: 50px 0px;
 }
