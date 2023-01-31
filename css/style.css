@@ -209,17 +209,8 @@ hr{
 }
 /*fine partner*/
 
-
-.container-business{
-    display: flex;
+.flexwrap{
     flex-wrap: wrap;
-    height: 600px;
-    background-color: khaki;
-    margin-bottom: 20px;
-}
-
-.container-business .colonna{
-    height: 250px;
 }
 
 .container-sponsor{
