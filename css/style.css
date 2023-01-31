@@ -185,33 +185,30 @@ hr{
     padding: 10px 0px;
 }
 
-.padding20{
+.paddingtop20{
     padding: 20px 0px;
 }
 
-.padding20 h5{
+.paddingtop20 h5{
     margin-bottom: 30px;
 }
 
 /* fine box enterprise*/
 
-
-
-.partner-dropbox{
-    height: 500px;
-    display: flex;
-    background-color: blueviolet;
-}
-
-.img-partner{
+/*partner*/
+.width60{
     width: 60%;
-    background-color: blanchedalmond;
 }
 
-.text-partner{
+.width40{
     width: 40%;
-    background-color: #b4d0e7;
 }
+
+.padding50{
+    padding: 50px;
+}
+/*fine partner*/
+
 
 .container-business{
     display: flex;
@@ -252,7 +249,6 @@ hr{
     width: 100%;
     background-color: red;
 
-
 }
 
 .faq{
@@ -282,5 +278,5 @@ hr{
 }
 
 .margin{
-    margin: 50px 0px;
+    margin: 65px 0px;
 }
