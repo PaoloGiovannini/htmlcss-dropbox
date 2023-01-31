@@ -39,8 +39,9 @@ nav ul li{
 }
 
 .button{
-    background-color: #0061ff;
     padding: 5px;
+    background-color: #0061ff;
+
 }
 
 .white{
@@ -224,7 +225,7 @@ hr{
 /* sponsor */
 .container-sponsor{
     display: flex;
-    margin-top: 20px;
+    margin-top: 80px;
 
 }
 
@@ -281,21 +282,19 @@ hr{
 /* fine sponsor */
 
 
-
-
-.take-dropbox{
-    height: 300px;
-    
-    display: flex;
+.portadrop{
+    background-color: #b4d0e7;
+    height: 400px;
     align-items: center;
-    
+    justify-content: space-around;
 }
 
-.text-take-dropbox{
-    height: 150px;
-    width: 100%;
-    
+.text-portadrop{
+    color: #61082b;
+}
 
+.bgwhite{
+    background-color: white;
 }
 
 .faq{
