@@ -53,40 +53,50 @@ nav ul li{
 main{
     padding: 65px 0px;
 }
-.top-main{
+
+/* inizio jumbotron*/
+#jumbotron{
     height: 600px;
     background-color: #b4d0e7;
-    padding: 20px;
-    margin-bottom: 30px;
+    padding: 20px 0px;
+    margin-bottom: 100px;
 }
 
-.mwidth80{
-    max-width: 80%;
+.mwidth1170{
+    max-width: 1170px;
     margin: auto;
 }
 
-.heading{
-    height: 100px;
-    width: 400px;
-    background: red;  
+h1{
+    font-size: 60px;
 }
 
-.container{
-    height: 450px;
-    background-color: grey;
-    display: flex;
-    margin-top: 20px;
-}
-
-.text-jumbotron{
+.width30{
     width: 30%;
-    background: brown;
 }
 
-.img-jumbotron{
+.width70{
     width: 70%;
-    background-color:aqua ;
 }
+
+.width100{
+    width: 100%;
+}
+
+.col p{
+    padding: 20px 0px;
+}
+
+.col img{
+    padding: 20px 0px;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    padding-top: 100px;
+}
+/* fine jumbotron*/
+
 
 .heading2{
     height: 80px;
