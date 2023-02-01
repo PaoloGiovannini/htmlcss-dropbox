@@ -292,6 +292,14 @@ i{
 .overflow{
     overflow: scroll;
 }
+
+.imgwhite{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(317deg) brightness(103%) contrast(102%);
+}
+
+.bordergreen{
+    border: 20px solid #d1e9cd;
+}
 /* fine sponsor */
 
 
@@ -369,10 +377,3 @@ footer hr{
     transform: rotate(180deg);
 }
 
-.imgwhite{
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(317deg) brightness(103%) contrast(102%);
-}
-
-.bordergreen{
-    border: 20px solid #d1e9cd;
-}
