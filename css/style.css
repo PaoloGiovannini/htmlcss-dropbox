@@ -13,8 +13,10 @@ html{
     display: flex;
 }
 
-header nav{
-    padding: 10px;
+header{
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,27 +25,30 @@ header nav{
     z-index: 1;
 }
 
-nav ul li{
-    display: inline-block;
-    padding: 10px;
+
+
+nav{
+    height: 100%;
 }
 
-.header-sx, .header-dx{
-    align-items: center;
+header ul{
+    list-style: none;
 }
 
-.header-sx li img{
+header ul li{
+    padding: 0 15px;
+}
+
+header img{
     vertical-align: middle;
 }
 
-.header-dx{
-    justify-content: end;
-}
+
 
 .button{
-    padding: 5px 20px;
+    text-decoration: none;
     background-color: #0061ff;
-
+    padding: 5px 15px;
 }
 
 .white{
